@@ -1,2 +1,14 @@
-HTTP Code: 201
-Response: 
+{
+  "version": 2,
+  "functions": {
+    "instagram_info.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/instagram_info",
+      "dest": "/instagram_info.py"
+    }
+  ]
+}
